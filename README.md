@@ -14,16 +14,6 @@ The project includes:
 ## Introduction
 RepairCLlama is designed to bridge the gap in automated debugging for C/C++ code. Transfer learning enables it to build on pre-existing Java-trained models, providing an efficient way to address syntactic and semantic errors in C/C++ without training from scratch.
 
----
-
-## Features
-- **Transfer Learning**: Adapts RepairLLaMA to support C/C++ debugging.
-- **Parameter-Efficient Fine-Tuning**: Utilizes LoRA to minimize resource usage.
-- **Multiple Datasets**: Fine-tuned on Deepfix and TEGCER datasets for robustness.
-- **Human-Inspired Debugging**: Prompt-based inference mimicking human-like debugging processes.
-- **Reproducible**: Code and datasets are publicly available.
-
----
 
 ## Pipeline Overview
 
@@ -47,14 +37,14 @@ RepairCLlama is designed to bridge the gap in automated debugging for C/C++ code
 
 
 ## Fine-tuned Models
-The following fine-tuned models will be hosted on **Hugging Face Hub**:
+
 
 | Model Name      | Dataset(s) Used  | Hugging Face Link            |
 |-----------------|------------------|------------------------------|
-| RepairCLlama-v1 | Best Performing Model(TEGCER) | https://huggingface.co/sharan9/RepairCLlama |
-| RepairCLlama-v2 | TEGCER           | https://huggingface.co/sharan9/Tegcer-Finetuned-Model |
-| RepairCLlama-v3 | Deepfix          |  https://huggingface.co/sharan9/Deepfix-Finetuned-Model           |
-| RepairCLlama-v4 | Combined         |   https://huggingface.co/sharan9/Tegcer-Deepfix-Finetuned-Model           |
+| RepairCLlama-v1 | Best Performing Model(TEGCER) | https://huggingface.co/sharan9/RepairCLlama-v1 |
+| RepairCLlama-v2 | TEGCER           | https://huggingface.co/sharan9/RepairCLlama-v2 |
+| RepairCLlama-v3 | Deepfix          |  https://huggingface.co/sharan9/RepairCLlama-v3         |
+| RepairCLlama-v4 | Combined         |  https://huggingface.co/sharan9/RepairCLlama-v4         |
 
 
 
